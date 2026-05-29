@@ -102,8 +102,8 @@ export default function CasesPage() {
         <Header />
 
       <main className="pt-16">
-        <div className="bg-secondary pt-8 pb-8">
-          <section className="max-w-6xl mx-auto px-6 py-20 bg-primary text-white rounded-2xl shadow-xl">
+        <div className="bg-secondary pt-8 pb-8 px-4 sm:px-6 xl:px-12 2xl:px-16">
+          <section className="max-w-[1800px] mx-auto px-6 py-20 bg-primary text-white rounded-2xl shadow-xl">
             <div className="text-center">
               <h1 className="text-5xl font-bold mb-4">行业案例</h1>
               <p className="text-xl text-white/80">探索各行业数字化转型成功案例</p>
