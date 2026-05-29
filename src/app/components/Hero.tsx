@@ -1,9 +1,9 @@
 export default function Hero() {
   return (
-    <div className="bg-secondary pt-8 pb-8">
-      <section className="relative h-[600px] flex items-center overflow-hidden max-w-6xl mx-auto px-6 rounded-2xl shadow-xl">
+    <div className="bg-secondary">
+      <section className="relative h-[600px] flex items-center overflow-hidden w-full px-6 shadow-xl">
         <div
-          className="absolute inset-0 rounded-2xl"
+          className="absolute inset-0"
           style={{
             backgroundImage: 'url("https://images.unsplash.com/photo-1647427060118-4911c9821b82?w=1920&q=80")',
             backgroundSize: 'cover',
@@ -12,7 +12,7 @@ export default function Hero() {
         />
 
         <div
-          className="absolute inset-0 rounded-2xl"
+          className="absolute inset-0"
           style={{
             background: 'linear-gradient(to right, rgba(10, 37, 64, 0.7) 0%, rgba(10, 37, 64, 0.4) 100%)'
           }}
