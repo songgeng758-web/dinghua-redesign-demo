@@ -25,6 +25,12 @@ export default function Header() {
               <span className="text-white font-bold">鼎</span>
             </div>
             <span className="text-xl font-bold text-primary">鼎华智能</span>
+            <span
+              className="text-[10px] font-semibold tracking-widest px-1.5 py-0.5 rounded-full leading-none"
+              style={{ color: '#B8972A', border: '1px solid #B8972A' }}
+            >
+              DEMO
+            </span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">

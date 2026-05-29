@@ -53,6 +53,8 @@ export default function Footer() {
 
         <div className="border-t border-white/20 pt-8 text-center text-white/60">
           <p>&copy; 2026 河南鼎华数字科技有限公司. 保留所有权利.</p>
+          <p className="mt-1 text-white/30 text-xs">本站为改版提案演示版本，非公司官方网站</p>
+          <p className="mt-3 text-white/30 text-xs">版式参考公司官方信息 · 改版提案 Demo</p>
         </div>
       </div>
     </footer>
